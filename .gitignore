@@ -1,0 +1,33 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+desktop.ini
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Embeddings pré-entraînés (trop volumineux pour GitHub, > 100 Mo)
+embeddings/*
+!embeddings/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets
+.env
+*.key
